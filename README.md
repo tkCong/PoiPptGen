@@ -24,18 +24,7 @@
 
 ### 运行示例
 
-以 `LineChartPptUtil` 工具类为例，调用如下方法即可生成基于模板的 PPT：
-
-```java
-boolean success = LineChartPptUtil.generatePPTChart(
-    "classpath:line_template.pptx",
-    "output/generated_line_chart.pptx",
-    1,
-    "方位俯仰角曲线"
-);
-```
-
-`templateFilePath` 支持使用 `classpath:` 访问 `src/main/resources` 中的模板文件。
+参考test目录下的示例
 
 ### 模板文件说明
 
